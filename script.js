@@ -17,7 +17,6 @@ function bar(text){
     <div class="card-body">
       <h5 class="card-title">${text[i].name.common}</h5>
       <p class="card-text">${text[i].capital[0]}</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>`;
   row.append(col);
